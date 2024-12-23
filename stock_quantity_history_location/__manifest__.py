@@ -1,0 +1,18 @@
+# Copyright 2019 ForgeFlow S.L.
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+
+{
+    "name": "Stock Quantity History Location",
+    "summary": "Provides stock quantity by location on past date",
+    "version": "0.0.1",
+    "license": "AGPL-3",
+    "author": "ForgeFlow, Odoo Community Association (OCA)",
+    "maintainers": [
+        "EwetoyeIbrahim",
+        "luisg123v",
+        "rolandojduartem",
+    ],
+    "website": "https://github.com/OCA/stock-logistics-reporting",
+    "depends": ["stock"],
+    "data": ["wizards/stock_quantity_history.xml"],
+}
